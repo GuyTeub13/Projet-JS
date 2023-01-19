@@ -1,0 +1,45 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+table,
+th,
+td {
+     padding: 10px;
+    border: 3px solid #2bb51f;
+    border-collapse: collapse;
+    font-size: 30px;
+}
+#cat{
+    width : 80%;
+    font-size: 30px;
+    text-align: center;
+}
+
+#bouton{
+    display: block;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+select {
+    display: block;
+    margin: 0 auto;
+    }
+
+
+h1{
+    font-size: 70px;
+    border-style: ridge;
+    border-width: 50px;
+    border-color: #2bb51f;
+    background-color: #a3e39b;
+}
+
+h3{
+    font-size: 20px;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+}

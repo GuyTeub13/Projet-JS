@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Sélecteur Bonnes Pratiques</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1 text align='center'>Sélecteur de bonnes méthodes Ingénieurs</h1>
+    <h3>Sélectionnez l'ID des bonnes pratiques que vous souhaitez ajouter à votre panier. Certaines bonnes pratiques sont incontournables et déjà intégrées au panier.  Vous pouvez retrouver votre panier juste en dessous du sélecteur avec ses spécificités.</h3>
+    <h3>Vous pouvez retrouver le tableau complet <a href="INRGR491.htm" target="_blank">ici</a>.</h3>
+
+
+
+<select id="cat" multiple>
+</select>
+<br>
+<button id="bouton" onclick="ajouter();" style="background-color: #2bb51f; color: white;">Ajouter au panier</button>
+<br>
+<br>
+<br>
+
+<table id="pan">
+  <tr><th>Famille Origine</th><th>ID</th><th>Recommandation</th><th>Critères</th></tr>
+</table>
+
+
+
+<script src="script.js"></script>
+<script>
+  remplirCatalogue();
+</script>
+
+
+</body>
